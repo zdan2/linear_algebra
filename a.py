@@ -44,4 +44,5 @@ na=a/ud
 print(a,na)
 
 #10内積の計算
+print(np.dot(a,b))
 print(sum(a*b))
