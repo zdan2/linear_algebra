@@ -79,7 +79,7 @@ plt.tight_layout()
 plt.show()
 
 #17and18and19 ベクトルの線形独立の判定
-def is_linear_independence2d(*args):
+def is_linear_independence(*args):
     v=[*args]
     A=np.stack(v,axis=1)
     rank=np.linalg.matrix_rank(A)
@@ -88,7 +88,7 @@ def is_linear_independence2d(*args):
         return True
     return False
 
-print(is_linear_independence2d(v1,v2))
+print(is_linear_independence(v1,v2))
 
 #20基底の概念 
 # Step 1: 新しい基底 e1, e2 を定義
