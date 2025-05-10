@@ -22,11 +22,11 @@ print(f'拡大: {n}\n',m1@expansion)
 
 #せん断
 a=1
-share=np.array([
+shear=np.array([
     [1,a],
     [0,1]
 ])
-print(f'せん断: {a}\n',m1@share)
+print(f'せん断: {a}\n',m1@shear)
 
 #32回転行列とその合成
 phi=np.pi/3
