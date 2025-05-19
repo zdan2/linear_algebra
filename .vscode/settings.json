@@ -1,0 +1,12 @@
+{
+  // LTeX で日本語はチェックしない
+  "ltex.disabledLanguages": [
+    "ja"
+  ],
+
+  // 英語だけチェックする
+  "ltex.language": "en-US",
+
+  // LTeX を有効化（false にすると全体で無効）
+  "ltex.enabled": true
+}
